@@ -13,7 +13,7 @@ export const BanditProvider = ({ children }: { children: ReactNode }) => {
     const { openConnectModal } = useConnectModal()
     return (
         <BanditContextProvider
-            apiKey={'5019175a11f54b0abe988c5048e5c020'}
+            apiKey="REPLACE_WITH_API_KEY"
             cluster="devnet"
             walletSettings={{
                 evm: {
