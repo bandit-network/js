@@ -11,9 +11,10 @@ import { ConnectButton } from '@rainbow-me/rainbowkit'
 export default function Home() {
     return (
         <main>
-            <ConnectButton />;{/*REPLACE {1} WITH CAMPAIGN ID*/}
+            <ConnectButton />
+            {/*REPLACE {1} WITH CAMPAIGN ID*/}
             <Campaign
-                campaignId={75}
+                campaignId={1}
                 render={(args: RenderArgsType) => {
                     const { isLoading, campaign, openApp } = args
 

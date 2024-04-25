@@ -18,6 +18,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "@bandit-network/react": "0.0.0-alpha.7"
+    "@bandit-network/react": "0.0.0-alpha.7",
+    "pino-pretty": "^11.0.0"
   }
 }

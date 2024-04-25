@@ -1,5 +1,5 @@
 {
-  "name": "@campaign/with-custom-ui-and-evm-wallet",
+  "name": "@leaderboard/with-custom-ui-and-evm-wallet",
   "version": "0.1.0",
   "private": true,
   "scripts": {
