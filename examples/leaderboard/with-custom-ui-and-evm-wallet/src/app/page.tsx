@@ -10,7 +10,7 @@ export default function Home() {
 
             {/*
                 Display a leaderboard component.
-                Replace {1} with the campaign ID.
+                Replace {REPLACE_WITH_ACTION_ID} with the action ID.
             */}
             <Leaderboard
                 id={'REPLACE_WITH_ACTION_ID'}
@@ -18,14 +18,14 @@ export default function Home() {
                     const { leaderboardQuery, userQuery } = args
 
                     /*
-                        The leaderboardQuery is of type useInfiniteQuery:
+                        The leaderboardQuery is of type UseInfiniteQueryResult:
                         1) Each page consists of CampaignLeaderboardResponse type.
                         2) CampaignLeaderboardResponse includes total number of users and points.
                     */
                     console.log(leaderboardQuery)
 
                     /*
-                        The userQuery is of type useQuery:
+                        The userQuery is of type useQueryResults:
                         1) Once the wallet is connected, this data will be available.
                         2) Data includes user's points (XP) and rank.
                     */

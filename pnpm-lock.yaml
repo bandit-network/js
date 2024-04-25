@@ -77,7 +77,56 @@ importers:
         specifier: ^5
         version: 5.3.3
 
-  examples/leaderboard/hello:
+  examples/leaderboard/with-custom-ui-and-evm-wallet:
+    dependencies:
+      '@rainbow-me/rainbowkit':
+        specifier: ^2.0.5
+        version: 2.0.5(@types/react@18.2.79)(react-dom@18.2.0)(react@18.2.0)(viem@2.9.26)(wagmi@2.5.21)
+      '@tanstack/react-query':
+        specifier: ^5.32.0
+        version: 5.32.0(react@18.2.0)
+      next:
+        specifier: 14.2.3
+        version: 14.2.3(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
+      react:
+        specifier: ^18
+        version: 18.2.0
+      react-dom:
+        specifier: ^18
+        version: 18.2.0(react@18.2.0)
+      viem:
+        specifier: 2.x
+        version: 2.9.26(typescript@5.3.3)
+      wagmi:
+        specifier: ^2.5.21
+        version: 2.5.21(@tanstack/react-query@5.32.0)(@types/react@18.2.79)(react-dom@18.2.0)(react-i18next@13.5.0)(react-native@0.74.0)(react@18.2.0)(typescript@5.3.3)(viem@2.9.26)
+    devDependencies:
+      '@types/node':
+        specifier: ^20
+        version: 20.12.7
+      '@types/react':
+        specifier: ^18
+        version: 18.2.79
+      '@types/react-dom':
+        specifier: ^18
+        version: 18.2.25
+      eslint:
+        specifier: ^8
+        version: 8.57.0
+      eslint-config-next:
+        specifier: 14.2.3
+        version: 14.2.3(eslint@8.57.0)(typescript@5.3.3)
+      postcss:
+        specifier: ^8
+        version: 8.4.38
+      tailwindcss:
+        specifier: ^3.4.1
+        version: 3.4.3
+      typescript:
+        specifier: ^5
+        version: 5.3.3
+
+  examples/referral/with-custom-ui-and-evm-wallet:
     dependencies:
       '@rainbow-me/rainbowkit':
         specifier: ^2.0.5
