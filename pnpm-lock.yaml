@@ -126,6 +126,40 @@ importers:
         specifier: ^5
         version: 5.3.3
 
+  examples/pro-kit/campaign-list:
+    dependencies:
+      '@bandit-network/pro-kit':
+        specifier: 0.0.0-alpha.5
+        version: 0.0.0-alpha.5
+      next:
+        specifier: 14.2.3
+        version: 14.2.3(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
+      react:
+        specifier: ^18
+        version: 18.2.0
+      react-dom:
+        specifier: ^18
+        version: 18.2.0(react@18.2.0)
+    devDependencies:
+      '@types/node':
+        specifier: ^20
+        version: 20.12.7
+      '@types/react':
+        specifier: ^18
+        version: 18.2.79
+      '@types/react-dom':
+        specifier: ^18
+        version: 18.2.25
+      eslint:
+        specifier: ^8
+        version: 8.57.0
+      eslint-config-next:
+        specifier: 14.2.3
+        version: 14.2.3(eslint@8.57.0)(typescript@5.3.3)
+      typescript:
+        specifier: ^5
+        version: 5.3.3
+
   examples/referral/with-custom-ui-and-evm-wallet:
     dependencies:
       '@rainbow-me/rainbowkit':
@@ -1744,6 +1778,17 @@ packages:
       '@babel/helper-string-parser': 7.24.1
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
+    dev: false
+
+  /@bandit-network/pro-kit@0.0.0-alpha.5:
+    resolution: {integrity: sha512-MGQXJYjXtya1ZpfQq3StpvVsZ0ONa8rqSJU3Gzk/2i0NUbvVfqZPqA9Drz1PtU2pll5cYOxR+bdyn/aITFLJLw==}
+    dependencies:
+      '@module-federation/runtime': 0.1.9
+      '@tanstack/react-query': 5.32.0(react@18.2.0)
+      lucide-react: 0.363.0(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-intersection-observer: 9.10.2(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
   /@bandit-network/react@0.0.0-alpha.7(@solana/web3.js@1.91.7)(bs58@4.0.1)(react-i18next@13.5.0)(react-native@0.74.0)(viem@2.9.26):
@@ -7932,6 +7977,14 @@ packages:
     dependencies:
       yallist: 4.0.0
 
+  /lucide-react@0.363.0(react@18.2.0):
+    resolution: {integrity: sha512-AlsfPCsXQyQx7wwsIgzcKOL9LwC498LIMAo+c0Es5PkHJa33xwmYAkkSoKoJWWWSYQEStqu58/jT4tL2gi32uQ==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
+
   /make-dir@2.1.0:
     resolution: {integrity: sha512-LS9X+dc8KLxXCb8dni79fLIIUA5VyZoyjSMCwTluaXA0o27cCK0bhXkpgw+sTXVpPy/lSO57ilRixqk0vDmtRA==}
     engines: {node: '>=6'}
@@ -9217,6 +9270,19 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       react-native: 0.74.0(@babel/core@7.23.3)(@babel/preset-env@7.24.4)(@types/react@18.2.79)(react@18.2.0)
+    dev: false
+
+  /react-intersection-observer@9.10.2(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-j2hGADK2hCbAlfaq6L3tVLb4iqngoN7B1fT16MwJ4J16YW/vWLcmAIinLsw0lgpZeMi4UDUWtHC9QDde0/P1yQ==}
+    peerDependencies:
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react-is@16.13.1:
