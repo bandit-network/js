@@ -10,7 +10,7 @@ export default function Home() {
 
             {/*
                 Display a referral component.
-                Replace {REPLACE_WITH_ACTION_ID} with the action ID.
+                Replace {REPLACE_WITH_ACTION_ID} with the campaign ID.
             */}
             <Referral
                 id={'REPLACE_WITH_ACTION_ID'}
