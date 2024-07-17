@@ -10,10 +10,10 @@ export default function Home() {
 
             {/*
                 Display a leaderboard component.
-                Replace {REPLACE_WITH_ACTION_ID} with the action ID.
+                Replace {REPLACE_WITH_CAMPAIGN_ID} with the action ID.
             */}
             <Leaderboard
-                id={'REPLACE_WITH_ACTION_ID'}
+                id={'REPLACE_WITH_CAMPAIGN_ID'}
                 render={(args: LeaderboardRenderArgsType) => {
                     const { leaderboardQuery, userQuery } = args
 
